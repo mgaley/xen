@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Be very careful about spending skill points unless you're ok spending money to respec, make sure the skill you are investing in will even work. Many cases it will do next to nothing, even if it seems obvious that it's good. Double check with others  Skills that are calculated based on a stat (str/agil) increase every 10 of that ">
+    <link rel="stylesheet" href="theme.css">
+    <style>
+    
+.normal_text {
+font-family: Arial;
+font-size: 11.0PT;
+color: #000000;
+line-height: 1.15;
+direction: ltr;
+}
+h1 {
+font-size: 20.0PT;
+padding-top: 20.0PT;
+padding-bottom: 6.0PT;
+direction: ltr;
+}
+h2 {
+font-size: 16.0PT;
+padding-top: 18.0PT;
+padding-bottom: 6.0PT;
+direction: ltr;
+}
+h3 {
+font-size: 14.0PT;
+color: #434343;
+padding-top: 16.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+h4 {
+font-size: 12.0PT;
+color: #666666;
+padding-top: 14.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+h5 {
+font-size: 11.0PT;
+color: #666666;
+padding-top: 12.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+h6 {
+font-size: 11.0PT;
+color: #666666;
+font-style: italic;
+padding-top: 12.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+.title {
+font-size: 26.0PT;
+padding-bottom: 3.0PT;
+direction: ltr;
+}
+.subtitle {
+font-family: Arial;
+font-size: 15.0PT;
+color: #666666;
+padding-bottom: 16.0PT;
+direction: ltr;
+}
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="quests.html">Quests</a></li>
+        <li class="menu-item"><a href="tips-&-tricks.html">Tips & Tricks</a>
+            <div class="submenu-toggle" onclick="toggleSubmenu(event, 'submenu-1')">&#9662;</div>
+            <ul class="submenu" id="submenu-1">
+        <li><a href="kings-quest.html">Kings Quest</a></li>
+            </ul>
+            </li>
+        <li><a href="professions.html">Professions</a></li>
+        <li><a href="end-game.html">End Game</a></li>
+        <li><a href="items.html">Items</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="maps.html">Maps</a></li>
+        <li><a href="shrines-&-chests.html">Shrines & Chests</a></li>
+    </ul>
+    </nav>
+</header>
+<div class="content"clear: both; overflow: auto; ">
+<div style="clear: both;">&nbsp;</div><br><h1 style='direction: ltr; '><span style=''>General: 
+</span></h1><p class="normal_text" style='direction: ltr; '><span style=''>Be very careful about spending skill points unless you're ok spending money to respec, make sure the skill you are investing in will even work. Many cases it will do next to nothing, even if it seems obvious that it's good. Double check with others
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>Skills that are calculated based on a stat (str/agil) increase every 10 of that stat. So having 70 str is several % better than 69 str with 1-3 extra skill points in use.
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h2 style='direction: ltr; '><span style=''>Mages: 
+</span></h2><p class="normal_text" style='direction: ltr; '><span style=''>prioritize primary elemental dmg, class skill, shadow resist, res mastery. defence(?) in roughly that order. 
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>Resist priority:
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>shadow (pixes/mages do shadow dmg mostly)
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>energy(?) warlock beams are shadow, are enemy mages energy if they're wizards? 
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h3 style='direction: ltr; '><span style=''>Warlocks:
+</span></h3><p class="normal_text" style='direction: ltr; '><span style=''>Shadow dmg->shadow power->shadow resist->few in energy res->res mastery->Defence
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>Leech seems like it kinda sucks, with it's cooldown you can't count on it reliably. 
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h2 style='direction: ltr; '><span style=''>Melee: 
+</span></h2><p class="normal_text" style='direction: ltr; '><span style=''>prioritize class skill(s), do not put skills in weapon types if theres a skill that uses it instead. 'Spin' or 'multi shot' doesn't use your 'sword/2h/bow' skill points for example. 
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h3 style='direction: ltr; '><span style=''>Warrior:
+</span></h3><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h3 style='direction: ltr; '><span style=''>Paladin: 
+</span></h3><p class="normal_text" style='direction: ltr; '><span style=''>inner str->critical hit->armor->def tactics->shield->shield mastery->2h (used for pvp/hitting bosses in back)
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>armor spell increase is likely especially good for pally, since it has 4 diff armor spells, most classes have just 2. 
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>stats: 
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>agility spin breakpoint is 28, get to 23 without shrines so you can get there after jeloc
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h3 style='direction: ltr; '><span style=''>Darkwar
+</span></h3>
+</div><footer>
+    Created for free by
+    <a href="https://gdocweb.com" target="_blank">gdocweb</a>. <br>
+    Convert Google Docs files to full fledged websites <b>for free</b>.
+</footer>
+<script>
+function toggleMenu() {
+    var header = document.querySelector('header');
+    header.classList.toggle('nav-active');
+}
+
+function toggleSubmenu(event, submenuId) {
+    var submenu = document.getElementById(submenuId);
+    var parentLi = submenu.parentElement;
+    parentLi.classList.toggle('submenu-active');
+    event.stopPropagation();
+}
+
+window.onclick = function(event) {
+    var submenus = document.getElementsByClassName("submenu");
+    for (var i = 0; i < submenus.length; i++) {
+        var parentLi = submenus[i].parentElement;
+        if (!parentLi.contains(event.target)) {
+            parentLi.classList.remove('submenu-active');
+        }
+    }
+}
+</script>
+</body>
+</html>
