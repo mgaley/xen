@@ -82,7 +82,15 @@ direction: ltr;
     <nav>
     <ul>
         <li><a href="index.html">Locations</a></li>
-        <li><a href="xenimus-public.html">Xenimus Public</a></li>
+        <li class="menu-item"><a href="home.html">Home</a>
+            <div class="submenu-toggle" onclick="toggleSubmenu(event, 'submenu-1')">&#9662;</div>
+            <ul class="submenu" id="submenu-1">
+        <li><a href="early-quests.html">Early Quests</a></li>
+        <li><a href="kings-quest.html">Kings Quest</a></li>
+            </ul>
+            </li>
+        <li><a href="professions.html">Professions</a></li>
+        <li><a href="quests.html">Quests</a></li>
     </ul>
     </nav>
 </header>
